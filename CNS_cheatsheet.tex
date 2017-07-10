@@ -1,0 +1,77 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage{tabulary}
+\usepackage{floatrow}
+\usepackage{setspace}
+\usepackage[misc]{ifsym}
+\usepackage[utf8]{}
+\usepackage{amsmath,amssymb}
+\usepackage[]{hyperref} 
+\usepackage[numbers]{natbib}
+\bibliographystyle{plainnat}
+\usepackage{caption}
+
+\usepackage{titlesec}
+\titleformat*{\section}{\large\bfseries}
+\renewcommand*{\bibfont}{\footnotesize}
+
+\begin{document}
+
+
+{\centering\doublespacing
+\Large{\textbf{A cheatsheet for computational neuroscientists}} 
+
+\normalsize{\textbf{Yifan Gu} \\
+\small{{School of Physics and ARC Centre of Excellence for Integrative Brain Function, \\
+University of Sydney, NSW 2006, Australia} }	
+\date{\today} 
+\par
+}
+}
+
+
+\begin{table}[h]
+\captionsetup{font=small}
+\footnotesize
+\centering
+\begin{tabular}[c]{p{3cm}p{6cm}}
+\hline \\
+770-2900 $\mu$m/ms &  conduction speed of action potential in myelinated axons in the cortex  \cite{debanne2011axon} \\
+250-380 $\mu$m/ms & conduction speed of action potential in unmyelinated axons in the cortex  \cite{debanne2011axon} \\
+140 $\mu$m/ms &  propagating speed of epileptiform waves in disinhibited hippocampal slices  \cite{miles1988spread} \\
+60-90 $\mu$m/ms &  propagating speed of epileptiform waves in disinhibited neocortical slices  \cite{pinto2005initiation, chervin1988periodicity} \\
+6-10 $\mu$m/ms & propagating speed of population activation in neocortical slices under conditions of
+unaltered excitability   \cite{wu1999propagating} \\
+\hline
+\end{tabular}
+\caption{Activity propagation speed}
+\end{table}
+
+
+\begin{table}[h]
+\captionsetup{font=small}
+\footnotesize
+\centering
+\begin{tabular}[c]{p{3cm}p{6cm}}
+\hline \\
+200-450 $\times 10^{-6}$  $\mu$m$^{-3}$ & density of pyramidal neurons in rodent hippocampus \cite{jinno2010stereological} \\
+50-60  $\mu$m & thickness of stratum pyramidal of rodent hippocampus (where pyramidal neurons lie) \cite{ghafari2014prenatal} \\
+2261 mm$^2$ & total cortical surface area of a hemisphere of a galago \citep{collins2010neuron} \\
+127 $\times 10^{6}$ & estimated number of neurons in the above cortical area \citep{collins2010neuron} \\
+18577 mm$^2$ & total cortical surface area of a hemisphere of a Baboon \citep{collins2010neuron} \\
+2.36 $\times 10^{9}$ & estimated number of neurons in the above cortical area \citep{collins2010neuron} \\
+\hline
+\end{tabular}
+\caption{Neuron density}
+\end{table}
+
+
+
+\bibliography{CNS_cheatsheet}
+
+\end{document}
+
+
+
+
+
+
